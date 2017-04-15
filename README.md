@@ -17,12 +17,10 @@ Later, after joining [Andela](http://www.andela.com) and understanding the impor
 
 Continuous improvements will be made on the **develop**, then to this branch: **master**. There's no necessity for a **staging** branch in my view :smile:.  The **original** branch will maintain the original state of the repo at the time I forked it.
 
-I have opted to have my GitHub user page. It is now hosted [http://ndagistanley.github.io/]( http://ndagistanley.github.io/) based on the master branch of this repository.
-
 
 #### MD?
 
-Yap. MD is Stan_MD in short. Get to know more about him at his [web profile](http://www.techkenyans.org/jamii/stanmd) carbon-copy of my GitHub user page (mentioned earlier :point-up: ) hosted by techKenyans.
+Yap. MD is Stan_MD in short. Get to know more about him at his [web profile](http://www.stanmd.pro)
 
 
 ## DIY
