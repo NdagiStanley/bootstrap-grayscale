@@ -1,0 +1,100 @@
+.btn.btn-simple  {
+    /*width: 70px;
+    height: 70px;*/
+    margin-top: 150px;
+    /*padding: 7px 16px;*/
+    border: 2px solid #fff;
+    /*border-radius: 100%!important;*/
+    /*font-size: 40px;*/
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn.btn-simple:hover,
+.btn.btn-simple:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn.btn-simple i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn.btn-simple:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.ebenezer {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../../assets/img/ebenezer.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#map {
+    width: 100%;
+    height: 700px;
+    margin-top: 70px;
+}
+
+.content-section {
+    padding-top: 50px;
+}
+
+.ebenezer {
+    padding: 100px 0;
+}
+
+
+@media(max-width:1441px) and (min-width: 769px) {
+    .content-section, .contact {
+        padding-top: 50px;
+    }
+    .btn.btn-simple  {
+    margin-top: 100px;
+    }
+}
+
+@media(max-width:768px) and (min-width: 600px) {
+    .content-section, .contact {
+        padding-top: 100px;
+    }
+    .btn.btn-simple  {
+    margin-top: 50px;
+    }
+}
+
+@media(max-width: 600px) {
+    .content-section {
+        padding-top: -10px;
+    }
+    .btn.btn-simple  {
+    margin-top: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    h1 {
+        font-size: 36px;
+    }
+}
