@@ -1,6 +1,6 @@
 .btn.btn-simple  {
     margin-top: 150px;
-    /*border: 2px solid #fff;*/
+    
     color: #fff;
     background: rgba(255,255,255,.1);
     -webkit-transition: background .3s ease-in-out;
@@ -16,13 +16,6 @@
 }
 
 .btn.btn-simple i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn.btn-simple:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -33,16 +26,34 @@
     -moz-animation-timing-function: linear;
 }
 
+.btn.btn-primary,
+.navbar .navbar-nav > li > a.btn.btn-primary {
+  box-shadow: 0 2px 2px 0 rgba(0,205,237, 0.14), 0 3px 1px -2px rgba(0,205,237, 0.2), 0 1px 5px 0 rgba(0,205,237, 0.12);
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover,
+.navbar .navbar-nav > li > a.btn.btn-primary:focus,
+.navbar .navbar-nav > li > a.btn.btn-primary:active,
+.navbar .navbar-nav > li > a.btn.btn-primary:hover {
+  box-shadow: 0 14px 26px -12px rgba(0,205,237, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0,205,237, 0.2);
+}
+
+.intro {
+    background-image: url('../../assets/img/intro.jpg');
+}
+
 .ebenezer {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../../assets/img/ebenezer.jpg) no-repeat center center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.ebenezer, .intro {
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -55,11 +66,6 @@
 .content-section {
     padding-top: 50px;
 }
-
-.ebenezer {
-    padding: 100px 0;
-}
-
 
 @media(max-width:1441px) and (min-width: 769px) {
     .content-section, .contact {
@@ -92,4 +98,52 @@
     h1 {
         font-size: 36px;
     }
+}
+
+/**/
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/**/
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
 }
