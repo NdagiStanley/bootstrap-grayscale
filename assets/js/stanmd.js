@@ -48,7 +48,7 @@ function init() {
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -173,22 +173,34 @@ function init() {
     var image = 'assets/img/map-marker.png';
     var here = 'assets/img/bluedot.png';
     var pin = 'assets/img/pin.png';
-    var home = new google.maps.LatLng(0.5067, 37.9000);
-    var lagos_location = new google.maps.LatLng(2.365422, 3.406448);
-    var ny_location = new google.maps.LatLng(40.730610, -73.935242);
+    var pint = 'assets/img/pint.png';
+    var pinth = 'assets/img/pinth.png';
+    var home = new google.maps.LatLng(-5.5067, 37.9000);
+    var lagos_location = new google.maps.LatLng(5.365422, 6.406448);
+    var ny_location = new google.maps.LatLng(40.730610, -70.935242);
+    var chi_location = new google.maps.LatLng(39.85003, -85.65005);
     var beachMarker = new google.maps.Marker({
         position: home,
         map: map,
-        icon: image
+        icon: here,
+        title: 'Nairobi, Kenya'
     });
     var beachMarker = new google.maps.Marker({
         position: lagos_location,
         map: map,
-        icon: here
+        icon: pinth,
+        title: 'Lagos, Nigeria'
     });
     var beachMarker = new google.maps.Marker({
         position: ny_location,
         map: map,
-        icon: pin
+        icon: pinth,
+        title: 'New York, New York State'
+    });
+    var beachMarker = new google.maps.Marker({
+        position: chi_location,
+        map: map,
+        icon: pinth,
+        title: 'Chicago, Illinois State'
     });
 }
