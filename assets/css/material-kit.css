@@ -3117,7 +3117,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .section-navbars {
@@ -3646,10 +3646,10 @@ h2.title {
 }
 
 .landing-page .header {
-  height: 100vh;
+  height: 20vh;
 }
 .landing-page .header .container {
-  padding-top: 26vh;
+  padding-top: 5vh;
   color: #FFFFFF;
 }
 .landing-page .header .share {
