@@ -1,5 +1,5 @@
 .btn.btn-simple  {
-    margin-top: 150px;
+    margin-top: 180px;
     
     color: #fff;
     background: rgba(255,255,255,.1);
@@ -64,12 +64,12 @@
 }
 
 .content-section {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 @media(max-width:1441px) and (min-width: 769px) {
     .content-section, .contact {
-        padding-top: 50px;
+        padding-top: 10px;
     }
     .btn.btn-simple  {
     margin-top: 100px;
@@ -78,7 +78,7 @@
 
 @media(max-width:768px) and (min-width: 600px) {
     .content-section, .contact {
-        padding-top: 100px;
+        padding-top: 10px;
     }
     .btn.btn-simple  {
     margin-top: 50px;

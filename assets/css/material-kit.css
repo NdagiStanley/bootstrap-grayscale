@@ -3125,7 +3125,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .section-full-screen {
-  height: 100vh;
+  height: 10vh;
 }
 
 .section-signup {
