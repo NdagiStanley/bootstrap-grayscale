@@ -30,12 +30,17 @@
 
     <script type="text/javascript">
         function showhide() {
+            // Birthday
             var d = new Date();
             var s = document.getElementById("birthday");
             if ((d.getDate() == 3) && (d.getMonth() == 10)) {
                 console.log("It's StanMD's birthday")
                 s.style.display = (s.style.display == 'block') ? 'none' : 'block';
             }
+            // Year at the footer
+            var year = d.getFullYear();
+            var y = document.getElementById("year");
+            y.textContent = year;
         }
     </script>
 
@@ -136,7 +141,7 @@
                 Copyright &copy;
                 <strong> Stan_MD™
                     <font color="blue">ה</font>
-                </strong>| AD-2018
+                </strong>| AD-<span id="year"></span>
             </div>
             <nav class="pull-right">
                 <ul>
